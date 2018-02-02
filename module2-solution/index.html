@@ -1,101 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Media Queries</title>
-<style>
-
-/********** Base styles **********/
-
-* {
-  font-family: Papyrus, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-h1 {
-  margin-bottom: 15px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.75em;
-}
-
-div {
-  border: 3px solid black;
-  margin-bottom: 20px;
-  margin-left: 1%;
-  margin-right: 1%;
-  background-color: lightgray;
-  float: left;
-  padding: 10px;
-}
-h2 {
-  border: 2px solid black;
-  float: right;
-  padding: 10px 30px 0px 30px;
-  font-weight: bold;
-  margin-top: -12px;
-  margin-right: -12px;
-  font-size: 1.25em;
-}
-
-p {
-  clear: right;
-  font-size: 1em;
-}
-
-#chicken {
-  background-color: pink;
-}
-#beef {
-  color: white;
-  background-color: red;
-}
-#sushi {
-  background-color: yellow;
-}
-/*#p1 {
-  background-color: lightgray;
-  width: 300px;
-  height: 300px;
-}
-#p2 {
-  background-color: #DEB887;
-  width: 50px;
-  height: 50px;
-}*/
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .box {
-    width: 31%;
-  }
-  .box2 {
-    width: 31%;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .box {
-    width: 47%;
-  }
-  .box2 {
-    width: 96%;
-  }
-}
-
-/********** Small devices only **********/
-@media (max-width: 767px) {
-  .box {
-    width: 97%;
-  }
-  .box2 {
-    width: 97%;
-  }
-}
-
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Media Queries</title>
+  <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
 <h1>Our Menu</h1>
@@ -117,4 +26,3 @@ p {
 
 </body>
 </html>
-
