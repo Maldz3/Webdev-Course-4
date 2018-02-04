@@ -1,1 +1,121 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Papyrus', sans-serif;
+}
 
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  border-left: 2px gray solid;
+  border-right: 2px gray solid;
+}
+
+.navbar-brand {
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Papyrus', sans-serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+h2 {
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+.content {
+  padding: 10px;
+  background-color: lightgray;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.content h3 {
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 50px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav {
+    background-color: lightblue;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.5em;
+  }
+  .content {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+  hr {
+    border-color: black;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+}
